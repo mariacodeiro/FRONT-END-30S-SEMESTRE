@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.mamae {
+    width: 920px;
+    height: 800px ;
+    padding: 20px;
+    margin: 0 auto;
+    border: 2px dashed salmon;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    
+   
+
+}
+
+.mamae__filhinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+    border: 2px dashed black;
+    
+}
+
+.filhinho--azul {
+    background-color: blue;
+    color: white;
+}

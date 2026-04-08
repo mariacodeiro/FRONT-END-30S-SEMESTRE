@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+/*
+
+box model
+  margin
+  padding
+  boder
+  content
+
+
+  box-sizing
+*/
+
+.caixa {
+
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+
+    padding-top: 20px;
+    padding-right: 30px; 
+    padding-bottom: 12px;
+    padding: 200px;
+
+    margin: 20px;
+    margin: 30px;
+    margin: 20px;
+    margin-left: 200px;
+
+
+    border: 2px solid slateblue;
+}
