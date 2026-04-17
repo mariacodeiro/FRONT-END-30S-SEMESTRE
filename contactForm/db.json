@@ -1,0 +1,109 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "id": "1",
+      "nome": "maria",
+      "sobrenome": "cordeiro",
+      "email": "duda@gmail.com"
+    },
+    {
+      "nome": "Mariana",
+      "sobrenome": "Silva",
+      "email": "maduda@gmail.com",
+      "id": "qPE5J3J21r8"
+    },
+    {
+      "nome": "Julio",
+      "sobrenome": "cesar",
+      "email": "julio@gmail.com",
+      "id": "c4Yds7baK_c"
+    },
+    {
+      "nome": "Diogo",
+      "sobrenome": "cesar",
+      "email": "Diogo@gmail.com",
+      "id": "wMaIqZSsXPo"
+    },
+    {
+      "nome": "Bia",
+      "sobrenome": "Arenas",
+      "email": "Bia@gmail.com",
+      "id": "BuMtZRRyeSE"
+    },
+    {
+      "nome": "Bia",
+      "sobrenome": "Arenas",
+      "email": "Bia@gmail.com",
+      "id": "H7fKk_qbJrY"
+    },
+    {
+      "nome": "Maria",
+      "sobrenome": "cordeiro",
+      "email": "maduda@gmail.com",
+      "id": "w4Ws3VmLSrs"
+    },
+    {
+      "nome": "maria",
+      "sobrenome": {},
+      "id": "jjFQl0MCCTk"
+    },
+    {
+      "nome": "maria",
+      "sobrenome": {},
+      "id": "PPQdRqwi6Ck"
+    },
+    {
+      "nome": "maria",
+      "sobrenome": {},
+      "id": "U0qz7lSxj7U"
+    }
+  ],
+  "produto": [
+    {
+      "id": "1",
+      "nome": "Produto 1",
+      "preco": 10.99,
+      "quantidade": 5
+    },
+    {
+      "nome": "iphone 17",
+      "preco": 10000,
+      "quantidade": 5,
+      "id": "1k7f9M0B0n0"
+    },
+    {
+      "nome": "gloss",
+      "preco": 18,
+      "quantidade": 1,
+      "id": "TwW4XXp3mCI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
