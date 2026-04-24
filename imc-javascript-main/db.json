@@ -1,0 +1,53 @@
+{
+  "imc": [
+    {
+      "nome": "Eduardo",
+      "peso": 85,
+      "altura": 1.67,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "AstfbcuRwNI"
+    },
+    {
+      "nome": "Eduardo",
+      "peso": 85,
+      "altura": 1.67,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "Km6myrQ4_d4"
+    },
+    {
+      "nome": "Eduardo",
+      "peso": 85,
+      "altura": 1.67,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "8e8s1HwMZtA"
+    },
+    {
+      "nome": "Eduardo",
+      "peso": 85,
+      "altura": 1.67,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "0n5ZRZgx9nI"
+    },
+    {
+      "nome": "Eduardo",
+      "peso": 85,
+      "altura": 1.67,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "wHKgVSrXzd8"
+    },
+    {
+      "nome": "Eduardo",
+      "peso": 85,
+      "altura": 1.67,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau I",
+      "id": "ChEpkvQQMuA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
