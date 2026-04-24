@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    
+    <h1>Bem vindo</h1>
+    <p>hello DOM JS</p>
+    <h1 id="Titulo" >Bem vindos
+
+    </h1>
+    <button onclick="saudacao();">Clica em mim!</button>
+    <button onmouseover="saudacaoLegal();">passe o mouse em mim</button>
+    <button onmousedown="saudacao();">clik em mim</button>
+    <button onmouseup="saudacao();">clik em mim</button>
+    <button onmouseover="saudacaoLegal();">passe o mouse</button>
+   
+
+     <script>
+
+        alert(`Titulo: ${document.getElementById("Titulo").textContent}`);
+
+
+        function saudacao(){
+        alert("hello word")
+        }
+        function saudacaoLegal(){
+            alert("ola amigo")
+        }
+
+        function mouseClicadoDuasVezes(){
+            alert("ola amigo")
+        }
+       
+    </script>
+
+</body>
+</html>
