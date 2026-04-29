@@ -1,0 +1,22 @@
+{
+  "calculo": [
+    {
+      "id": "1lXiuAklkXY"
+    },
+    {
+      "n1": 4,
+      "n2": 5,
+      "op": "soma",
+      "resultado": "9.00",
+      "id": "iS5LonURKv4"
+    },
+    {
+      "n1": 44,
+      "n2": 55,
+      "op": "soma",
+      "resultado": "99.00",
+      "id": "w0aFeLOCQ8k"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
