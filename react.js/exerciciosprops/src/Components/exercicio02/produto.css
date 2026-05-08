@@ -1,0 +1,26 @@
+.card-produto {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 120px;
+    background-color: salmon;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;;
+}
+
+.card-produto:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    background-color: aliceblue;
+    color: brown;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.card-produto__line {
+    width: 100%;
+}
