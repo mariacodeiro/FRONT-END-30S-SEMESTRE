@@ -1,17 +1,31 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Login from "../pages/login/login";
-import CadastroFilme from "../pages/cadastroFilmes/CadastroFlilme";
+
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import  CadastroFilme from "../pages/cadastroFilmes/CadastroFlilme";
 import CadastroGenero from "../pages/CadastroGenero/CadastroGenero";
+import Login from "../pages/login/Login";
+import PrivateRoute from "./PrivateRoute";
+
 const Rotas = () => {
-    return (
-      <BrowserRouter   >
+  return (
+    <BrowserRouter>
+
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/filmes" element={<CadastroFilme/>} />
-        <Route path="/generos" element={<CadastroGenero/>} />
+        <Route path="/filme" element={
+          <PrivateRoute>
+            <CadastroFilme />
+          </PrivateRoute>
+        } />
+        <Route path="/genero" element={
+          <PrivateRoute>
+            <CadastroGenero />
+          </PrivateRoute>
+        } />
+        {/* <Route path="*" element={<Navigate to="/" />} /> */}
       </Routes>
-      </BrowserRouter>
-    )
-}
 
-export default Rotas;
+    </BrowserRouter>
+  );
+};
+
+export default Rotas;  

@@ -1,0 +1,49 @@
+{
+  "Genero": [
+    {
+      "id": "2",
+      "nome": "Comédia"
+    },
+    {
+      "id": "3",
+      "nome": "Terror"
+    },
+    {
+      "nome": "maria 2",
+      "id": "V3Je3_yjslA"
+    },
+    {
+      "idGenero": "bc93d42e-1d4a-488e-a591-85f261b71736",
+      "nome": "maria",
+      "id": "ZqPUDdGHZn0"
+    },
+    {
+      "idGenero": "f3f2312f-64e9-46ab-ac5f-49b5fcc7a1ea",
+      "nome": "maria",
+      "id": "BoEGGRgcWnw"
+    },
+    {
+      "idGenero": "bd079c96-46f6-4762-ad1c-5fe9c0b76f73",
+      "nome": "maria",
+      "id": "DIrBcYclbDs"
+    },
+    {
+      "idGenero": "3269f5ca-1fff-4e16-a064-a4c73a32d09f",
+      "nome": "maria",
+      "id": "ed8QLnSASrQ"
+    },
+    {
+      "nome": "maria 6",
+      "id": "ubEvp4a4S8Y"
+    },
+    {
+      "nome": "maria",
+      "id": "EimTZfUb1WQ"
+    },
+    {
+      "nome": "maria",
+      "id": "YExX5I_Il5M"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
